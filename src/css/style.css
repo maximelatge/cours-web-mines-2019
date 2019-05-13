@@ -1,3 +1,8 @@
+body{
+  padding-top: 56px;
+  padding-bottom: 274px;
+}
+
 body #main-content div.box > a, a.special {
   font-size: 18px;
   font-weight: bold;
@@ -5,6 +10,7 @@ body #main-content div.box > a, a.special {
 
   color: #000;
   background-color: #fff;
+  /*background-image: url('');*/
 }
 
 body #main-content {
@@ -18,5 +24,27 @@ body #main-content div.box > a, a.special {
   width: 100px;
   height: 100px;
 
-  display: block; /*hidden, inline, ...*/
+  display: block; /*hidden, inline, ... -> meme prop qu'une div*/
 }
+
+form#exercice3 label{
+  color: blue;
+  font-size: 20px;
+}
+
+form#exercice3 input{
+  font-size: 20px;
+}
+
+form#exercice3 .filecontainer{
+  position: relative;
+  background: yellow;
+}
+
+form#exercice3 .help{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
